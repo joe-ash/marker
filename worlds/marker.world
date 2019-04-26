@@ -1,0 +1,102 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://marker000</uri>
+      <name>marker000</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker001</uri>
+      <name>marker001</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker002</uri>
+      <name>marker002</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker003</uri>
+      <name>marker003</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker004</uri>
+      <name>marker004</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker005</uri>
+      <name>marker005</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker006</uri>
+      <name>marker006</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker007</uri>
+      <name>marker007</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker008</uri>
+      <name>marker008</name>
+      <static>1</static>
+    </include>
+    <include>
+      <uri>model://marker009</uri>
+      <name>marker009</name>
+      <static>1</static>
+    </include>
+    <state world_name='default'>
+      <model name='marker000'>
+        <scale>1 1 1</scale>
+        <pose>0 0 0 0 0 0</pose>
+      </model>
+      <model name='marker001'>
+        <scale>1 1 1</scale>
+        <pose>0 -0.2 0 0 0 0</pose>
+      </model>
+      <model name='marker002'>
+        <scale>1 1 1</scale>
+        <pose>0 -0.4 0 0 0 0</pose>
+      </model>
+      <model name='marker003'>
+        <scale>1 1 1</scale>
+        <pose>0 -0.6 0 0 0 0</pose>
+      </model>
+      <model name='marker004'>
+        <scale>1 1 1</scale>
+        <pose>0 -0.8 0 0 0 0</pose>
+      </model>
+      <model name='marker005'>
+        <scale>1 1 1</scale>
+        <pose>-0.2 0 0 0 0 0</pose>
+      </model>
+      <model name='marker006'>
+        <scale>1 1 1</scale>
+        <pose>-0.2 -0.2 0 0 0 0</pose>
+      </model>
+      <model name='marker007'>
+        <scale>1 1 1</scale>
+        <pose>-0.2 -0.4 0 0 0 0</pose>
+      </model>
+      <model name='marker008'>
+        <scale>1 1 1</scale>
+        <pose>-0.2 -0.6 0 0 0 0</pose>
+      </model>
+      <model name='marker009'>
+        <scale>1 1 1</scale>
+        <pose>-0.2 -0.8 0 0 0 0</pose>
+      </model>
+    </state>
+  </world>
+</sdf>
